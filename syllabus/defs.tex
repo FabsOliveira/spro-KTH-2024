@@ -1,0 +1,94 @@
+% ----------------------------------------------------------------------------
+% Arguments: #1: Exercise number
+%			 #2: Week
+%			 #3: Date
+%			 #4: Location (class room)
+%			 #5: Link to homework
+%			 #6: Exercises
+\newcommand{\MakeExercise}[5]
+{
+	\clearpage 
+	\addtocounter{exercisenumber}{#1}
+	\setcounter{problemnumber}{0}
+	\lhead{\bf MS-E2122 - Nonlinear optimization\\
+               Exercise \ExerciseNumber}
+	%\chead{\bf Week #2}
+	\rhead{\bf #2 \\ #3}%
+	\vspace*{-38pt}
+	\noindent 
+	#4	
+	#5
+}
+% -----------------------------------------------------------------------------
+% Arguments: #1: Problem description (optional)
+%			 #2: Problem text in a tex file
+\newcommand{\Problem}[2]
+{
+	\addtocounter{problemnumber}{1}
+	\vspace{0.5cm}
+	\noindent
+	
+	{\large \textbf{Exercise \ExerciseNumber.\ProblemNumber{} #1}}
+
+	\vspace{0.5cm}
+	\noindent
+	\input{#2}
+}
+% -----------------------------------------------------------------------------
+\pagestyle{fancy}
+% -----------------------------------------------------------------------------               
+\newcommand{\p}{\phantom}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\lb}{\linebreak}
+%\newcommand{\s}{\scriptscriptstyle}
+\newcommand{\fs}{\footnotesize}
+\newcommand{\sz}{\scriptsize}
+\newcommand{\ti}{\tiny}
+% -----------------------------------------------------------------------------
+\newcommand{\Rank}{\mathop{\bf Rank}}
+\newcommand{\diag}{\mathop{\bf diag}}
+\newcommand{\card}{\mathop{\bf card}}
+\newcommand{\rank}{\mathop{\bf rank}}
+\newcommand{\conv}{\mathop{\bf conv}}
+\newcommand{\proj}{\mathop{\bf proj}}
+\newcommand{\dom}{\mathop{\bf dom}} % domain
+\newcommand{\epi}{\mathop{\bf epi}} % epigraph
+\renewcommand{\det}{\mathop{\bf det}}
+% -----------------------------------------------------------------------------
+\newcommand{\minf}{\mathop{\text{minimize}}}
+\newcommand{\maxf}{\mathop{\text{maximize}}}
+\newcommand{\mini}{\mathop{\text{min}}}
+\newcommand{\maxi}{\mathop{\text{max}}}
+\newcommand{\argmin}{\mathop{\rm argmin}}
+\newcommand{\argmax}{\mathop{\rm argmax}}
+\newcommand{\Expect}{\mathop{\bf E{}}}
+\newcommand{\Prob}{\mathop{\bf Prob}}
+% -----------------------------------------------------------------------------
+\newcommand{\stt}{\mathop{\text{subject to}}} % Aligned with \mini and &
+\newcommand{\st}{\mbox{s.t.}}
+\newcommand{\cf}{{\it cf.}}
+\newcommand{\eg}{{\it e.g.}}
+\newcommand{\ie}{{\it i.e.}}
+\newcommand{\etc}{{\it etc.}}
+% -----------------------------------------------------------------------------
+\newcommand{\braces}[1]{\left\{ #1 \right \}}
+\newcommand{\brackets}[1]{\left[ #1 \right]} 
+\newcommand{\parenthesis}[1]{\left( #1 \right)} 
+\newcommand{\ceil}[1]{\left \lceil #1 \right \rceil}
+\newcommand{\floor}[1]{\left \lfloor #1 \right \rfloor}
+% -----------------------------------------------------------------------------               
+\newcommand{\HRule}{\rule{\linewidth}{1.5pt}}
+\newcommand{\MRule}{\rule{\linewidth}{1.0pt}}
+\newcommand{\LRule}{\rule{\linewidth}{0.5pt}}
+% -----------------------------------------------------------------------------
+\definecolor{sblue}{RGB}{79,129,189}
+\definecolor{mblue}{RGB}{0,112,192}
+\definecolor{hblue}{RGB}{31,73,125}
+% -----------------------------------------------------------------------------
+\newcounter{exercisenumber}
+\newcounter{problemnumber}
+\newcommand{\ExerciseNumber}{\arabic{exercisenumber}}
+\newcommand{\ProblemNumber}{\arabic{problemnumber}}
+\newcommand{\ProblemTitle}{}
+% -----------------------------------------------------------------------------

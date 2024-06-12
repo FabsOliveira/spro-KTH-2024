@@ -1,0 +1,128 @@
+% -----------------------------------------------------------------------------
+\documentclass[a4paper]{artikel3}
+% -----------------------------------------------------------------------------
+\paperheight = 29.70 cm  \paperwidth = 21.0 cm  \hoffset        = 0.16 cm
+\headheight  =  0.81 cm  \textwidth  = 16.0 cm  \evensidemargin = 0.00 cm
+\headsep     =  0.81 cm	 \textheight = 9.00 in  \oddsidemargin  = 0.00 cm					
+% -----------------------------------------------------------------------------
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+\usepackage[pdfpagemode  = None,
+		    colorlinks   = true,
+		    urlcolor     = blue,
+            linkcolor    = black,
+            citecolor    = black,
+            pdfstartview = FitH]{hyperref}
+% -----------------------------------------------------------------------------            
+\usepackage{enumitem}
+\setlist{align=left,topsep=0pt,itemsep=-1ex,partopsep=1ex,parsep=1ex}
+\setlist[enumerate]{topsep=0pt,leftmargin=*,labelsep=2ex,itemsep=-1ex}            
+% -----------------------------------------------------------------------------
+\input defs.tex
+% -----------------------------------------------------------------------------
+\begin{document}
+\lhead{\bf Short course - Stochastic programming and robust optimisation}
+\rhead{\bf Syllabus}
+
+{\bf Time and place:} 12-14 \& 17 of June 2024, KTH, Stockholm
+ 
+{\bf Lecturer}: Prof. Fabricio Oliveira (fabricio.oliveira@aalto.fi)
+
+\section{Course description}
+
+In this course, you will learn about mathematical programming methods for modelling and solving optimisation problems under uncertainty. This is critical for the use of mathematical programming approaches in real settings, where the uncertainty related to the input data must be taken into account. 
+
+You will learn about the two main paradigms for uncertainty consideration: stochastic programming and robust optimisation. Our focus will be primarily practical, meaning that we will learn about good modelling practice and uncertainty representation. 
+
+
+\section{Learning outcomes}
+
+Upon completing this course, the student should 
+\begin{itemize}
+    \item understand how optimisation models can be enhanced to consider uncertainty in the input data;
+    \item understand the main techniques for modelling and solving optimisation problems under uncertainty in practice;
+    \item know how to use optimisation software for implementing and solving stochastic programming and robust optimisation problems.
+\end{itemize}
+
+
+\section{Teaching methods}
+
+This course uses a combination of lectures, tutorials and seminars. The lectures are targeted to introduce the basic concepts related to stochastic programming and robust optimisation. To complement the lectures, tutorial sessions will also take place. These will consist of exercises that are aimed at clarifying the content discussed in the lectures and discussing computational aspects and practical applications. 
+
+The course will be taught by a composition of the following methods: 
+\begin{itemize}
+    \item lectures;
+    \item tutorial sessions; 	
+    \item guided self-study;
+    \item seminar presentations;
+    \item project work and feedback.  
+\end{itemize}
+
+The course is implemented in person. Participation and discussions are part of the learning and thus required. 
+%Under special circumstances, participation via video conference may be arranged if no other alternative is possible. 
+The seminar presentations are to be delivered via video conference.
+ 
+%\section{Assessment}
+%The final grade of the course is composed of three components:
+%\begin{enumerate}
+%    \item[$P$:] Participation in the sessions: 30\%;
+%    \item[$R$:] Research paper presentation: 20 \%;
+%    \item[$W$:] Project work: 50 \%.
+%\end{enumerate}
+
+
+\subsection{Participation}
+
+Attendance to the sessions will be recorded. Students are required to attend at least 3/4 of the sessions. Lectures will not be recorded.
+
+%\subsection{Research paper presentation} 
+%
+%Each student will be required to prepare a 20-minute presentation about a research paper of their choosing. The choice of paper must be agreed upon with the lecturer.
+%
+%The paper must be related to topics covered in the course. The paper can be, for example, presenting an application of some of the topics covered to solve a particular problem, or present novel developments associated with stochastic programming or robust optimisation that have not been covered in the course.
+
+\subsection{Project work}
+
+Each student will also be required to develop a small computational project in which some of the techniques and methods seen in the course are applied to a stylised problem. A list of project examples includes:
+\begin{enumerate}
+	\item Choose a problem from this reference (\href{https://ebookcentral.proquest.com/lib/aalto-ebooks/detail.action?pq-origsite=primo&docID=7103745}{link}) and develop a version of it under uncertainty, using the techniques discussed in the course
+	\item Apply one or more of the techniques to a problem of your own choice (e.g., related to your MSc or DSc topic)
+	\item Replicate (to some extent) and/or extend some of the computational experiments from a chosen research article.
+\end{enumerate}
+
+The project scope must be agreed upon with the lecturer. The deliverable of the project is an oral presentation of the project and its results.
+
+
+\section{Course material}
+
+Main study material: lecture slides, selected research papers, and tutorial notebooks.
+
+%The lecture notes are available at \href{https://github.com/gamma-opt/optimisation-notes}{github.com/gamma-opt/optimisation-notes}. These notes are open source and may be updated as needed. Please make sure to use an up-to-date version.
+
+\section{Course schedule}
+
+A tentative schedule for the course is given. The content of each class may be adapted according to the pace of the classes and the number of students. 
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{cll} \hline
+	 Session & Content                               				\\ \hline
+	 1   & Two- and multi-stage stochastic optimisation 			\\
+	 2   & Scenario generation and sample average approximation   \\
+	 3   & Chance constraints and risk measures        			\\
+	 4   & Static and adaptive robust optimisation     			\\ \hline 
+             		
+\end{tabular}
+\caption{Course schedule. Each session is 2h teaching + 2h exercises}
+\end{table}
+
+
+
+
+\end{document}
