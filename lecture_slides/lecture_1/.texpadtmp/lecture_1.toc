@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Two-stage stochastic programming}{19}{0}{2}
+\beamer@sectionintoc {3}{Measures of quality: EVPI and VSS}{30}{0}{3}
+\beamer@sectionintoc {4}{Recourse types}{39}{0}{4}
+\beamer@sectionintoc {5}{Multi-stage problems}{44}{0}{5}

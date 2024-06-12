@@ -1,0 +1,33 @@
+\begin{thebibliography}{}
+
+\bibitem[Alem et~al., 2020]{alem2020practical}
+Alem, D., Oliveira, F., and Peinado, M. C.~R. (2020).
+\newblock A practical assessment of risk-averse approaches in production lot-sizing problems.
+\newblock {\em International Journal of Production Research}, 58(9):2581--2603.
+
+\bibitem[Artzner et~al., 1999]{artzner1999coherent}
+Artzner, P., Delbaen, F., Eber, J.-M., and Heath, D. (1999).
+\newblock Coherent measures of risk.
+\newblock {\em Mathematical finance}, 9(3):203--228.
+
+\bibitem[Dowson et~al., 2022]{dowson2022incorporating}
+Dowson, O., Morton, D.~P., and Pagnoncelli, B.~K. (2022).
+\newblock Incorporating convex risk measures into multistage stochastic programming algorithms.
+\newblock {\em Annals of Operations Research}, pages 1--25.
+
+\bibitem[Nemirovski and Shapiro, 2007]{nemirovski2007convex}
+Nemirovski, A. and Shapiro, A. (2007).
+\newblock Convex approximations of chance constrained programs.
+\newblock {\em SIAM Journal on Optimization}, 17(4):969--996.
+
+\bibitem[Rockafellar, 2007]{rockafellar2007coherent}
+Rockafellar, R.~T. (2007).
+\newblock Coherent approaches to risk in optimization under uncertainty.
+\newblock In {\em OR Tools and Applications: Glimpses of Future Technologies}, pages 38--61. Informs.
+
+\bibitem[Shapiro, 2011]{SHAPIRO201163}
+Shapiro, A. (2011).
+\newblock Analysis of stochastic dual dynamic programming method.
+\newblock {\em European Journal of Operational Research}, 209(1):63--72.
+
+\end{thebibliography}
